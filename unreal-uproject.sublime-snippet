@@ -11,7 +11,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
-	]
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
