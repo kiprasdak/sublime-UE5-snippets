@@ -2,7 +2,7 @@
 	<content><![CDATA[
 {
 	"FileVersion": 3,
-	"EngineAssociation": "${2:4.25}",
+	"EngineAssociation": "${2:5.0}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -10,6 +10,15 @@
 			"Name": "$1",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		}
+	]
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
 		}
 	]
 }
