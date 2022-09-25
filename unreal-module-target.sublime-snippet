@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
 using UnrealBuildTool;
+using System.Collections.Generic;
 
 public class ${TM_FILENAME/([^\.]+)\..*/$1/}Target : TargetRules
 {
