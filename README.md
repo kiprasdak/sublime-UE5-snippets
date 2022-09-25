@@ -1,6 +1,6 @@
 # Unreal Snippets
 
-A collection of Sublime Text 3 snippets for writing Unreal Engine 4 game code.
+A collection of Sublime Text 4 snippets for writing Unreal Engine 5 game code.
 
 Some of these snippets assume that your project's source modules follow the convention of splitting source files into _Public_ and _Private_ subdirectories.
 
@@ -69,4 +69,4 @@ Example setup steps for creating a new Unreal C++ project from scratch:
 - Within Private, add `Log.h`, run `ulh`
 - Within Private, add `Log.cpp`, run `ulc`
 
-At this point, you should be able to build your project and open it with the version of UE4Editor that you've built against.
+At this point, you should be able to build your project and open it with the version of UE5Editor that you've built against.

@@ -1,10 +1,10 @@
 {
-	"name": "sublime-unreal-snippets",
-	"version": "1.0.2",
-	"description": "Snippets for writing Unreal Engine game code",
+	"name": "sublime-UE5-snippets",
+	"version": "1.0.3",
+	"description": "Snippets for writing Unreal Engine 5 game code",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/awforsythe/sublime-unreal-snippets.git"
+		"url": "https://github.com/kiprasdak/sublime-UE5-snippets"
 	},
 	"keywords": [
 		"sublime",
@@ -19,5 +19,5 @@
 	"bugs": {
 		"url": "https://github.com/awforsythe/sublime-unreal-snippets/issues"
 	},
-	"homepage": "https://github.com/awforsythe/sublime-unreal-snippets"
+	"homepage": "https://github.com/kiprasdak/sublime-UE5-snippets"
 }
