@@ -7,7 +7,7 @@ public class ${TM_FILENAME/([^\.]+)\..*/$1/}Target : TargetRules
 {
 	public ${TM_FILENAME/([^\.]+)\..*/$1/}Target(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.${2:Game};
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "$1" } );
 	}
