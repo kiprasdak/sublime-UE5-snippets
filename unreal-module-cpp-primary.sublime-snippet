@@ -15,7 +15,7 @@ void F${TM_FILENAME/([^\.]+)\..*/$1/}::ShutdownModule()
 	UE_LOG(Log${TM_FILENAME/([^\.]+)\..*/$1/}, Log, TEXT("${TM_FILENAME/([^\.]+)\..*/$1/} module shutting down"));
 }
 
-IMPLEMENT_PRIMARY_GAME_MODULE(F${TM_FILENAME/([^\.]+)\..*/$1/}, ${TM_FILENAME/([^\.]+)\..*/$1/}, "${TM_FILENAME/([^\.]+)\..*/$1/}");
+IMPLEMENT_PRIMARY_GAME_MODULE(F${TM_FILENAME/([^\.]+)\..*/$1/}, ${TM_FILENAME/([^\.]+)\..*/$1/}, "${1:${TM_FILENAME/([^\.]+)\..*/$1/}}");
 
 ]]></content>
 	<tabTrigger>umcp</tabTrigger>

@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Modules/ModuleInterface.h"
+#include "Modules/ModuleManager.h"
 
-class F${TM_FILENAME/([^\.]+)\..*/$1/} : public IModuleInterface
+class F${TM_FILENAME/([^\.]+)\..*/$1/} : public FDefaultGameModuleImpl
 {
 public:
 	static inline F${TM_FILENAME/([^\.]+)\..*/$1/}& Get()
