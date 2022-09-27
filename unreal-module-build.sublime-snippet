@@ -9,6 +9,7 @@ public class ${TM_FILENAME/([^\.]+)\..*/$1/} : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		bEnforceIWYU = true;
 
+		PublicIncludePaths.AddRange( new string[] { "${TM_FILENAME/([^\.]+)\..*/$1/}" });
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 	}
