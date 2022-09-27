@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-#include "Log.h"
+#include "${TM_FILENAME/([^\.]+)\..*/$1/}.h"
 
 ${TM_FILEPATH/.*\/Source\/(.*)\/.*/\U$1/}_API DEFINE_LOG_CATEGORY(Log${1:${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}});
 
