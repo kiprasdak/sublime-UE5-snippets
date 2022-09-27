@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-UFUNCTION(BlueprintCallable, Category="${TM_FILEPATH/.*\/Source\/(.*)\/(?:Private|Public)\/.*/$1/}")
+UFUNCTION(BlueprintCallable, Category="${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}")
 ${2:void} ${1:SomeFunction}();
 ]]></content>
 	<tabTrigger>uff</tabTrigger>

@@ -8,7 +8,7 @@
 #include "${TM_FILENAME/([^\.]+)\..*/$1/}.generated.h"
 
 UCLASS()
-class ${TM_FILEPATH/.*\/Source\/(.*)\/(?:Private|Public)\/.*/\U$1/}_API A${TM_FILENAME/([^\.]+)\..*/$1/} : public AActor
+class ${TM_FILEPATH/.*\/Source\/(.*)\/.*/\U$1/}_API A${TM_FILENAME/([^\.]+)\..*/$1/} : public AActor
 {
 	GENERATED_BODY()
 

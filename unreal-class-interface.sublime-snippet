@@ -8,12 +8,12 @@
 #include "${TM_FILENAME/([^\.]+)\..*/$1/}.generated.h"
 
 UINTERFACE()
-class ${TM_FILEPATH/.*\/Source\/(.*)\/(?:Private|Public)\/.*/\U$1/}_API U${TM_FILENAME/([^\.]+)\..*/$1/} : public UInterface
+class ${TM_FILEPATH/.*\/Source\/(.*)\/.*/\U$1/}_API U${TM_FILENAME/([^\.]+)\..*/$1/} : public UInterface
 {
 	GENERATED_BODY()
 };
 
-class ${TM_FILEPATH/.*\/Source\/(.*)\/(?:Private|Public)\/.*/\U$1/}_API I${TM_FILENAME/([^\.]+)\..*/$1/}
+class ${TM_FILEPATH/.*\/Source\/(.*)\/.*/\U$1/}_API I${TM_FILENAME/([^\.]+)\..*/$1/}
 {
 	GENERATED_BODY()
 

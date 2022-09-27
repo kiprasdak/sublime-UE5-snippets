@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-UFUNCTION(BlueprintCallable, Category="${TM_FILEPATH/.*\/Source\/(.*)\/(?:Private|Public)\/.*/$1/}", meta=(WorldContext="WorldContextObject"))
+UFUNCTION(BlueprintCallable, Category="${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}", meta=(WorldContext="WorldContextObject"))
 static ${2:void} ${1:SomeFunction}(UObject* WorldContextObject);
 ]]></content>
 	<tabTrigger>ufs</tabTrigger>

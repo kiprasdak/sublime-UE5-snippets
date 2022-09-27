@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${TM_FILEPATH/.*\/Source\/(.*)\/(?:Private|Public)\/.*/\U$1/}_API
+${TM_FILEPATH/.*\/Source\/(.*)\/.*/\U$1/}_API
 ]]></content>
 	<tabTrigger>ume</tabTrigger>
 	<scope>source.c++</scope>
