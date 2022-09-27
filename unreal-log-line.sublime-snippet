@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-UE_LOG(Log${3:${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}}, ${1:Log}, TEXT("${2:Hello}"));
+UE_LOG(Log${3:${TM_FILEPATH/.*\/Source\/(.*)\/.*\/.*/$1/}}, ${1:Log}, TEXT("${2:Hello}"));
 ]]></content>
 	<tabTrigger>ull</tabTrigger>
 	<scope>source.c++</scope>
