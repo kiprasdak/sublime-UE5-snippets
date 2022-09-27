@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
-${2:class USceneComponent*} ${1:SomeComponent};${3}
+class ${2:USceneComponent}* ${1:SomeComponent};
 ]]></content>
 	<tabTrigger>upc</tabTrigger>
 	<scope>source.c++</scope>

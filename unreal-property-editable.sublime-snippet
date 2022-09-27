@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="${3:${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}}")
-${2:int32} ${1:SomeProperty};${4}
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="${3:${TM_FILEPATH/.*\/Source\/.*\/(.*)\/.*/$1/}}")
+${2:int32} ${1:SomeProperty};
 ]]></content>
 	<tabTrigger>upe</tabTrigger>
 	<scope>source.c++</scope>
