@@ -4,7 +4,7 @@
 
 #include "Logging/LogMacros.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(Log${2:${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}}, ${1:Log}, All);
+${TM_FILEPATH/.*\/Source\/(.*)\/.*/\U$1/}_API DECLARE_LOG_CATEGORY_EXTERN(Log${2:${TM_FILEPATH/.*\/Source\/(.*)\/.*/$1/}}, ${1:Log}, All);
 
 ]]></content>
 	<tabTrigger>ulh</tabTrigger>
